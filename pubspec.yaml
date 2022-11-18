@@ -1,0 +1,30 @@
+name: test_dr_github
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  provider: ^6.0.3
+  search_page: ^2.0.0+1
+  sqflite: ^2.0.0+4
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Rockwell
+      fonts:
+        - asset: fonts/RockWell Normal.TTF
